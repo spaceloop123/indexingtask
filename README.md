@@ -40,12 +40,12 @@ Also, program's code should be covered with [**Unit Tests**](https://en.wikipedi
 ### Additional tasks
 There are three additional tasks:
 * Add performance measurement to your task
- * This is needed to compare the speed of hashing (working with CPU) and reading (working with Disk)
- * Performance stats should be printed to console and include four characteristics: Average speed of reading (MB/s), Average speed of hashing (MB/s), total time spent on reading (seconds), total time spent on hashing (seconds)
+  * This is needed to compare the speed of hashing (working with CPU) and reading (working with Disk)
+  * Performance stats should be printed to console and include four characteristics: Average speed of reading (MB/s), Average speed of hashing (MB/s), total time spent on reading (seconds), total time spent on hashing (seconds)
 * Add CRC32 and SHA2 (SHA256) algorithms.
- * `crc32` and `sha2` should be another options for `algorithm` parameter
+  * `crc32` and `sha2` should be another options for `algorithm` parameter
 * Add GUI to your task
- * GUI should let you choose the file(s), block size, algorithm and mode, preferrably also show some progress and stats
+  * GUI should let you choose the file(s), block size, algorithm and mode, preferrably also show some progress and stats
 
 ### Github repository
 [Github repository](https://github.com/Andrew414/indexingtask) consists of one main [`README.md`](https://github.com/Andrew414/indexingtask/blob/master/README.md) page and fourteen personal folders. You need to fork the repository and make changes in your personal folder only. All personal folders contain an empty `.gitignore` file that you need to fill in with your project's temp files. The rest of the files should be your code and project files.
